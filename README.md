@@ -1,6 +1,8 @@
 # About
 Send this to your crush to ask her to be your valentine
 
+[https://cute-bear-valentine.netlify.app](https://cute-bear-valentine.netlify.app)
+
 <img src="https://github.com/cuberoy/valentine/blob/main/demo.gif">
 
 ## License
@@ -8,4 +10,5 @@ This project is licensed under the terms of the MIT license. Therefore, it's fre
 
 ## Copyright
 THE IMAGES' AND FONTS' COPYRIGHT IS OWNED BY THE ORIGINAL OWNER.
-All credits go to [https://valentine.mewtru.com](https://valentine.mewtru.com)
+
+Credits go to [https://valentine.mewtru.com](https://valentine.mewtru.com)
