@@ -61,3 +61,50 @@ button:hover {
 #no-btn:hover {
   background-color: #B91C1C;
 }
+
+#heart {
+  display: none;
+  content: '';
+  height: 70px;
+  aspect-ratio: 1;
+  top: 70px;
+  background-color: #f20044;
+  position: relative;
+  transform: rotate(-45deg);
+  box-shadow: -10px 10px 90px #f20044;
+  animation: heart 0.6s linear infinite;
+}
+
+#heart:before {
+  content: '';
+  height: 70px;
+  aspect-ratio: 1;
+  background-color: #f20044;
+  position: absolute;
+  top: -50%;
+  border-radius: 50px;
+  box-shadow: -10px -10px 90px #f20044;
+}
+
+#heart:after {
+  content: '';
+  height: 70px;
+  aspect-ratio: 1;
+  background-color: #f20044;
+  position: absolute;
+  right: -50%;
+  border-radius: 50px;
+  box-shadow: 10px 10px 90px #f20044;
+}
+
+@keyframes heart {
+  0% {
+    transform: rotate(-45deg) scale(1.07);
+  }
+  80% {
+    transform: rotate(-45deg) scale(1.0);
+  }
+  100% {
+    transform: rotate(-45deg) scale(0.8);
+  }
+}
