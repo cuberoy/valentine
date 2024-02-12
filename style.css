@@ -5,16 +5,11 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: 'rom';
-  src: url('font-rom.woff2') format('truetype');
-}
-
 body {
-  font-family: 'rom', Arial, Helvetica, sans-serif;
+  font-family: "Protest Riot", Arial, Helvetica, sans-serif;
   width: max-content;
   overflow-x: auto;
-  background-color: #FCFBFC;
+  background-color: #fff0f6;
 }
 
 .main-container {
@@ -31,6 +26,7 @@ body {
   font-size: 3rem;
   text-align: center;
   margin: 30px 0;
+  color: #f53699;
 }
 
 .btn-container {
@@ -46,7 +42,7 @@ button {
   border-radius: 10px;
   padding: 1rem;
   font-size: 1.5rem;
-  color: white;
+  color: #fff0f6;
   font-weight: bold;
 }
 
