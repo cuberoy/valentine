@@ -108,3 +108,39 @@ button:hover {
     transform: rotate(-45deg) scale(0.8);
   }
 }
+
+.heart-rain {
+  position: fixed;
+  top: -1vh;
+  left: 1vw;
+  font-size: 1rem;
+  transform: translate(0,0);
+  animation: fallright 3s linear forwards;
+}
+
+@keyframes fallright {
+  to {
+    transform: translate(105vw, 500vh);
+  }
+}
+
+.heart-rain-2 {
+  position: fixed;
+  top: -1vh;
+  right: -1vw;
+  font-size: 1rem;
+  transform: translate(0, 0);
+  animation: fallleft 3s linear forwards;
+}
+
+@keyframes fallleft {
+  to {
+    transform: translate(-105vw, 500vh);
+  }
+}
+
+@media (min-width: 400px) {
+  .heart-rain, .heart-rain-2 {
+    font-size: 2rem;
+  }
+}

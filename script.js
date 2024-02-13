@@ -7,7 +7,7 @@ var yesCurrentFontSize = window.getComputedStyle(text, null).getPropertyValue('f
 var windowWidth = window.innerWidth;
 var btnContainer = document.querySelector('.btn-container');
 var mainContainer = document.querySelector('.main-container');
-var rejects = ["No", "Are you sure?", "Really Sure?", "Are you positive?", "Are you absolutely sure?", "Pookie please", "Just think about it", "If you say no, I'll be really sad", "I'll be very very sad", "I'll be very very very sad", "I'll be very very very very sad", "Ok fine, I'll stop asking...", "Just kidding, PLEASE SAY YES", "I'll be very very very very very sad", "You're breaking my heart ;(", "Give me a chance", "I REALLY want you", "Pleaseeee...", "I will cry if you say no TT", "We will have lots of fun", "Pretty please?", "I know you are lying", "Pwease say YES", "I'll be REALLY sad ;(", "Don't be shy", "You are making it difficult for me ;(", "Think about it again", "Think harder..", "Think hardest...", "Pretty pleaseee TT", "Pretty prettie pleasee..", "Pretty prettie pwetti pwease...", "LAST chance!!!", "I'll really stop asking..", "Don't test me >:(", "HMPH Fine!!", "JUST KIDDING TT", "Just say YES"];
+var rejects = ["No", "Are you sure?", "Really Sure?", "Are you positive?", "Are you absolutely sure?", "Pookie please", "Just think about it", "If you say no, I'll be really sad", "I'll be very very sad", "I'll be very very very sad", "I'll be very very very very sad", "Ok fine, I'll stop asking...", "Just kidding, PLEASE SAY YES", "I'll be very very very very very sad", "You're breaking my heart ;(", "Give me a chance", "I REALLY want you", "Pleaseeee...", "I will cry if you say no TT", "We will have lots of fun", "Pretty please?", "I know you are lying", "Pwease say YES", "I'll be REALLY sad ;(", "Don't be shy", "You are making it difficult for me ;(", "Think about it again", "Plsssss", "Think harder..", "Think hardest...", "Pretty pleaseee TT", "Pretty prettie pleasee..", "Pretty prettie pwetti pwease...", "LAST chance!!!", "I'll really stop asking..", "Don't test me >:(", "HMPH Fine!!", "JUST KIDDING TT", "I BEG U 🙏", "Just say YES"];
 var rejectCounts = 1;
 
 no_button.addEventListener('click', function() {
@@ -28,6 +28,7 @@ yes_button.addEventListener('click', function() {
   no_button.style.display = 'none';
   yes_button.style.display = 'none';
   heart.style.display = "block";
+  startHeartRain();
 });
 
 function updateDir() {
