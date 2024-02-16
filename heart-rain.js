@@ -3,7 +3,7 @@ function createHeartRain() {
   heartRain.classList.add("heart-rain");
   heartRain.style.left = Math.random() * 100 + "vw";
   heartRain.style.animationDuration = Math.random() * 2 + 3 + "s";
-  heartRain.innerText ='❤';
+  heartRain.innerText ='❤️';
   document.body.appendChild(heartRain);
   setTimeout(() => {
     heartRain.remove();
@@ -15,7 +15,7 @@ function createHeartRain2() {
   heartRain2.classList.add("heart-rain-2");
   heartRain2.style.left = Math.random() * 100 + "vw";
   heartRain2.style.animationDuration = Math.random() * 2 + 3 + "s";
-  heartRain2.innerText ='❤';  
+  heartRain2.innerText ='❤️';  
   document.body.appendChild(heartRain2);
   setTimeout(() => {
     heartRain2.remove();
