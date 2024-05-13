@@ -1,7 +1,7 @@
 # About
 Send this to your crush to ask him/her to be your valentine
 
-[https://cute-bear-valentine.netlify.app](https://cute-bear-valentine.netlify.app)
+[https://app.cuberoy.com/valentine](https://app.cuberoy.com/valentine)
 
 <img src="https://github.com/cuberoy/valentine/blob/main/demo.gif">
 
